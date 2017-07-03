@@ -22,9 +22,10 @@ Since the specs on the Semtech radio ICs are good, we could "upgrade" a generati
    - Use 0.1" headers and jumpers for configuration pins
 - Should
    - Have large square silk screen area for board #
-   - Have copper ground pads around edge of  board for scope clips  
+   - Have copper ground pads around edge of  board for scope clips
 - Must not
    - Feature creep (don't go nuts, just make us an evaluation board of a refernece design)
+   - This includes not bothering to deal with LNAs or PAs for this board! It's local only.
 
 ## References
 
