@@ -29,7 +29,7 @@ Since the specs on the Semtech radio ICs are good, we could "upgrade" a generati
 
 ## References
 
-- Kw0x Development board (*Will - where's that repo??*)
+- [Original Practicum Kw0x Development board](https://github.com/wrh2/sputnik/tree/master/Phase0/eagle)
 - Original OreSat [Low Gain Radio board](https://github.com/oresat/low-gain-radio)
 - [Semtech SX126 Webpage](http://www.semtech.com/wireless-rf/rf-transceivers/sx1236/)
 - The [SX1276](http://www.semtech.com/apps/product.php?pn=SX1276) may have the same pinout, but also has a LoRa radio built in (blech)
