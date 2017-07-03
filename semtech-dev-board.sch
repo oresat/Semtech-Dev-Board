@@ -207,35 +207,42 @@ LETTER landscape</description>
 by exp-lbrs.ulp</description>
 <packages>
 <package name="QFN28">
-<smd name="P$0" x="3.35" y="3.35" dx="4.8" dy="4.8" layer="1"/>
-<smd name="P$8" x="1.4" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$9" x="2.05" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$10" x="2.7" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$11" x="3.35" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$12" x="4" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$13" x="4.65" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$14" x="5.3" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$15" x="6.325" y="1.35" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$16" x="6.325" y="2" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$17" x="6.325" y="2.65" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$18" x="6.325" y="3.3" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$19" x="6.325" y="3.95" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$20" x="6.325" y="4.6" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$21" x="6.325" y="5.25" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$7" x="0.375" y="1.4" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$6" x="0.375" y="2.05" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$5" x="0.375" y="2.7" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$4" x="0.375" y="3.35" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$3" x="0.375" y="4" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$2" x="0.375" y="4.65" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$1" x="0.375" y="5.3" dx="0.75" dy="0.3" layer="1" rot="R180"/>
-<smd name="P$28" x="1.4" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$27" x="2.05" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$26" x="2.7" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$25" x="3.35" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$24" x="4" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$23" x="4.65" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$22" x="5.3" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="0" x="3.35" y="3.35" dx="4.8" dy="4.8" layer="1"/>
+<smd name="8" x="1.4" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="2.05" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="2.7" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="3.35" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="4" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="4.65" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="5.3" y="0.375" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="6.325" y="1.35" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="16" x="6.325" y="2" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="17" x="6.325" y="2.65" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="18" x="6.325" y="3.3" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="19" x="6.325" y="3.95" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="20" x="6.325" y="4.6" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="21" x="6.325" y="5.25" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="7" x="0.375" y="1.4" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="6" x="0.375" y="2.05" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="5" x="0.375" y="2.7" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="4" x="0.375" y="3.35" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="3" x="0.375" y="4" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="2" x="0.375" y="4.65" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="1" x="0.375" y="5.3" dx="0.75" dy="0.3" layer="1" rot="R180"/>
+<smd name="28" x="1.4" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="27" x="2.05" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="26" x="2.7" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="25" x="3.35" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="24" x="4" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="23" x="4.65" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<smd name="22" x="5.3" y="6.325" dx="0.75" dy="0.3" layer="1" rot="R90"/>
+<wire x1="0.35" y1="0.35" x2="0.35" y2="6.35" width="0.127" layer="21"/>
+<wire x1="0.35" y1="6.35" x2="6.35" y2="6.35" width="0.127" layer="21"/>
+<wire x1="6.35" y1="6.35" x2="6.35" y2="0.35" width="0.127" layer="21"/>
+<wire x1="6.35" y1="0.35" x2="0.35" y2="0.35" width="0.127" layer="21"/>
+<circle x="-0.05" y="6.6" radius="0.1581125" width="0.327" layer="21"/>
+<text x="7" y="6" size="1.27" layer="25">&gt;NAME</text>
+<text x="7" y="0" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -273,6 +280,8 @@ by exp-lbrs.ulp</description>
 <pin name="RFO_LF" x="-10.16" y="12.7" length="middle" rot="R180"/>
 <pin name="RFO_HF" x="-10.16" y="10.16" length="middle" rot="R180"/>
 <pin name="GND3" x="-48.26" y="-7.62" length="middle"/>
+<text x="-43.18" y="38.608" size="2.54" layer="95">&gt;NAME</text>
+<text x="-42.926" y="-15.748" size="2.54" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -283,35 +292,35 @@ by exp-lbrs.ulp</description>
 <devices>
 <device name="" package="QFN28">
 <connects>
-<connect gate="G$1" pin="DIO0" pad="P$8"/>
-<connect gate="G$1" pin="DIO1/DCLK" pad="P$9"/>
-<connect gate="G$1" pin="DIO2/DATA" pad="P$10"/>
-<connect gate="G$1" pin="DIO3" pad="P$11"/>
-<connect gate="G$1" pin="DIO4" pad="P$12"/>
-<connect gate="G$1" pin="DIO5" pad="P$13"/>
-<connect gate="G$1" pin="GND1" pad="P$15"/>
-<connect gate="G$1" pin="GND2" pad="P$23"/>
-<connect gate="G$1" pin="GND3" pad="P$26"/>
-<connect gate="G$1" pin="GROUND" pad="P$0"/>
-<connect gate="G$1" pin="MISO" pad="P$17"/>
-<connect gate="G$1" pin="MOSI" pad="P$18"/>
-<connect gate="G$1" pin="NRESET" pad="P$7"/>
-<connect gate="G$1" pin="NSS" pad="P$19"/>
-<connect gate="G$1" pin="PA_BOOST" pad="P$27"/>
-<connect gate="G$1" pin="RFI_HF" pad="P$21"/>
-<connect gate="G$1" pin="RFI_LF" pad="P$1"/>
-<connect gate="G$1" pin="RFO_HF" pad="P$22"/>
-<connect gate="G$1" pin="RFO_LF" pad="P$28"/>
-<connect gate="G$1" pin="RXTX" pad="P$20"/>
-<connect gate="G$1" pin="SCK" pad="P$16"/>
-<connect gate="G$1" pin="VBAT_ANA" pad="P$3"/>
-<connect gate="G$1" pin="VBAT_DIG" pad="P$14"/>
-<connect gate="G$1" pin="VBAT_RF" pad="P$24"/>
-<connect gate="G$1" pin="VR_ANA" pad="P$2"/>
-<connect gate="G$1" pin="VR_DIG" pad="P$4"/>
-<connect gate="G$1" pin="VR_PA" pad="P$25"/>
-<connect gate="G$1" pin="XTA" pad="P$5"/>
-<connect gate="G$1" pin="XTB" pad="P$6"/>
+<connect gate="G$1" pin="DIO0" pad="8"/>
+<connect gate="G$1" pin="DIO1/DCLK" pad="9"/>
+<connect gate="G$1" pin="DIO2/DATA" pad="10"/>
+<connect gate="G$1" pin="DIO3" pad="11"/>
+<connect gate="G$1" pin="DIO4" pad="12"/>
+<connect gate="G$1" pin="DIO5" pad="13"/>
+<connect gate="G$1" pin="GND1" pad="15"/>
+<connect gate="G$1" pin="GND2" pad="23"/>
+<connect gate="G$1" pin="GND3" pad="26"/>
+<connect gate="G$1" pin="GROUND" pad="0"/>
+<connect gate="G$1" pin="MISO" pad="17"/>
+<connect gate="G$1" pin="MOSI" pad="18"/>
+<connect gate="G$1" pin="NRESET" pad="7"/>
+<connect gate="G$1" pin="NSS" pad="19"/>
+<connect gate="G$1" pin="PA_BOOST" pad="27"/>
+<connect gate="G$1" pin="RFI_HF" pad="21"/>
+<connect gate="G$1" pin="RFI_LF" pad="1"/>
+<connect gate="G$1" pin="RFO_HF" pad="22"/>
+<connect gate="G$1" pin="RFO_LF" pad="28"/>
+<connect gate="G$1" pin="RXTX" pad="20"/>
+<connect gate="G$1" pin="SCK" pad="16"/>
+<connect gate="G$1" pin="VBAT_ANA" pad="3"/>
+<connect gate="G$1" pin="VBAT_DIG" pad="14"/>
+<connect gate="G$1" pin="VBAT_RF" pad="24"/>
+<connect gate="G$1" pin="VR_ANA" pad="2"/>
+<connect gate="G$1" pin="VR_DIG" pad="4"/>
+<connect gate="G$1" pin="VR_PA" pad="25"/>
+<connect gate="G$1" pin="XTA" pad="5"/>
+<connect gate="G$1" pin="XTB" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
