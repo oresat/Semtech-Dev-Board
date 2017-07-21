@@ -10375,7 +10375,7 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0805" value="0"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="R0805"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="R0805" value="0"/>
 <part name="TP1" library="low-gain-radio" deviceset="TEST-POINT" device=""/>
 <part name="TP2" library="low-gain-radio" deviceset="TEST-POINT" device=""/>
 <part name="TP4" library="low-gain-radio" deviceset="TEST-POINT" device=""/>
@@ -10383,10 +10383,7 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
 <part name="C5" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="C4" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C3" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="C2" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C1" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="TP6" library="low-gain-radio" deviceset="TEST-POINT" device=""/>
 <part name="C6" library="rcl" deviceset="C-US" device="C0805" value="6pF"/>
 <part name="C7" library="rcl" deviceset="C-US" device="C0805" value="6pF"/>
@@ -10439,6 +10436,11 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C24" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C26" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C27" library="rcl" deviceset="C-US" device="C0805" value="10uF"/>
+<part name="C28" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10469,18 +10471,21 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <instance part="+3V32" gate="G$1" x="27.94" y="96.52"/>
 <instance part="U3" gate="G$1" x="213.36" y="208.28"/>
 <instance part="+3V34" gate="G$1" x="231.14" y="218.44"/>
-<instance part="GND10" gate="1" x="200.66" y="198.12"/>
+<instance part="GND10" gate="1" x="200.66" y="195.58"/>
 <instance part="C21" gate="G$1" x="226.06" y="195.58"/>
 <instance part="C23" gate="G$1" x="238.76" y="205.74"/>
 <instance part="GND11" gate="1" x="226.06" y="185.42"/>
 <instance part="GND12" gate="1" x="238.76" y="195.58"/>
 <instance part="R4" gate="G$1" x="165.1" y="200.66"/>
-<instance part="R5" gate="G$1" x="187.96" y="208.28" rot="R180"/>
-<instance part="TP1" gate="G$1" x="198.12" y="208.28"/>
+<instance part="R5" gate="G$1" x="180.34" y="200.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="177.292" y="202.7174" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="183.388" y="198.882" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="TP1" gate="G$1" x="190.5" y="200.66" rot="R180"/>
 <instance part="TP2" gate="G$1" x="142.24" y="210.82" rot="MR0"/>
 <instance part="TP4" gate="G$1" x="43.18" y="71.12"/>
 <instance part="TP5" gate="G$1" x="238.76" y="213.36"/>
-<instance part="+3V33" gate="G$1" x="63.5" y="134.62"/>
+<instance part="+3V33" gate="G$1" x="63.5" y="137.16"/>
 <instance part="C5" gate="G$1" x="101.6" y="83.82" smashed="yes">
 <attribute name="NAME" x="102.616" y="84.455" size="1.778" layer="95"/>
 <attribute name="VALUE" x="101.6" y="79.629" size="1.778" layer="96"/>
@@ -10489,29 +10494,20 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <attribute name="NAME" x="92.456" y="84.455" size="1.778" layer="95"/>
 <attribute name="VALUE" x="91.44" y="79.629" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="83.82" y="109.22" smashed="yes">
-<attribute name="NAME" x="84.836" y="109.855" size="1.778" layer="95"/>
-<attribute name="VALUE" x="83.82" y="105.029" size="1.778" layer="96"/>
-</instance>
 <instance part="C2" gate="G$1" x="76.2" y="109.22" smashed="yes">
 <attribute name="NAME" x="77.216" y="109.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.454" y="105.029" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="50.8" y="111.76" smashed="yes" rot="MR0">
-<attribute name="NAME" x="49.784" y="112.395" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="50.8" y="107.315" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="GND4" gate="1" x="50.8" y="101.6"/>
 <instance part="TP6" gate="G$1" x="200.66" y="213.36"/>
 <instance part="C6" gate="G$1" x="101.6" y="38.1" rot="MR0"/>
 <instance part="C7" gate="G$1" x="114.3" y="38.1"/>
 <instance part="GND7" gate="1" x="114.3" y="27.94"/>
 <instance part="GND6" gate="1" x="101.6" y="27.94"/>
-<instance part="R3" gate="G$1" x="63.5" y="124.46" rot="R90"/>
+<instance part="R3" gate="G$1" x="63.5" y="127" rot="R90"/>
 <instance part="JP2" gate="A" x="5.08" y="30.48" rot="MR0"/>
 <instance part="R2" gate="G$1" x="27.94" y="86.36" rot="R90"/>
 <instance part="TP7" gate="G$1" x="96.52" y="60.96"/>
-<instance part="GND5" gate="1" x="78.74" y="99.06"/>
+<instance part="GND5" gate="1" x="81.28" y="99.06"/>
 <instance part="C8" gate="G$1" x="127" y="127"/>
 <instance part="L3" gate="G$1" x="149.86" y="119.38" rot="R180"/>
 <instance part="L1" gate="G$1" x="139.7" y="132.08" rot="MR90"/>
@@ -10555,6 +10551,23 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <instance part="GND24" gate="1" x="193.04" y="121.92"/>
 <instance part="GND25" gate="1" x="154.94" y="116.84"/>
 <instance part="GND26" gate="1" x="248.92" y="149.86"/>
+<instance part="C24" gate="G$1" x="50.8" y="111.76" smashed="yes" rot="MR0">
+<attribute name="NAME" x="49.784" y="112.395" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="50.8" y="107.315" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="C26" gate="G$1" x="83.82" y="109.22" smashed="yes">
+<attribute name="NAME" x="84.836" y="109.855" size="1.778" layer="95"/>
+<attribute name="VALUE" x="83.82" y="105.029" size="1.778" layer="96"/>
+</instance>
+<instance part="C27" gate="G$1" x="182.88" y="208.28" smashed="yes" rot="MR0">
+<attribute name="NAME" x="181.864" y="208.915" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="182.88" y="203.835" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="C28" gate="G$1" x="190.5" y="208.28" smashed="yes" rot="MR0">
+<attribute name="NAME" x="189.484" y="208.915" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="190.5" y="203.835" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND4" gate="1" x="50.8" y="101.6"/>
 </instances>
 <busses>
 </busses>
@@ -10574,8 +10587,14 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <segment>
 <pinref part="U3" gate="G$1" pin="GND"/>
 <wire x1="203.2" y1="203.2" x2="200.66" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="203.2" x2="200.66" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="203.2" x2="200.66" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="C28" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="203.2" x2="190.5" y2="203.2" width="0.1524" layer="91"/>
+<junction x="200.66" y="203.2"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="203.2" x2="182.88" y2="203.2" width="0.1524" layer="91"/>
+<junction x="190.5" y="203.2"/>
 </segment>
 <segment>
 <pinref part="C23" gate="G$1" pin="2"/>
@@ -10586,11 +10605,6 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="C21" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="226.06" y1="190.5" x2="226.06" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="104.14" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -10605,12 +10619,12 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="104.14" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="101.6" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="101.6" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="101.6" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<junction x="78.74" y="101.6"/>
+<junction x="81.28" y="101.6"/>
+<pinref part="C26" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="104.14" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -10722,6 +10736,11 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <wire x1="248.92" y1="154.94" x2="248.92" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C24" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="104.14" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="SPI_NSS" class="0">
 <segment>
@@ -10827,7 +10846,7 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <segment>
 <pinref part="+3V33" gate="G$1" pin="+3V3"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="129.54" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="132.08" x2="63.5" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V32" gate="G$1" pin="+3V3"/>
@@ -10875,31 +10894,28 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <pinref part="TP7" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="5219_EN" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="EN"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="208.28" x2="198.12" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="208.28" x2="193.04" y2="208.28" width="0.1524" layer="91"/>
-<junction x="198.12" y="208.28"/>
-</segment>
-</net>
 <net name="VREG_IN" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="IN"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="208.28" x2="180.34" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="208.28" x2="180.34" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="213.36" x2="200.66" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="200.66" x2="172.72" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="200.66" x2="172.72" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="213.36" x2="182.88" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="213.36" x2="190.5" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="213.36" x2="200.66" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="213.36" x2="203.2" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="TP6" gate="G$1" pin="1"/>
 <junction x="200.66" y="213.36"/>
 <label x="182.88" y="213.36" size="1.778" layer="95"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="200.66" x2="170.18" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="200.66" x2="180.34" y2="208.28" width="0.1524" layer="91"/>
-<junction x="180.34" y="208.28"/>
+<wire x1="172.72" y1="200.66" x2="170.18" y2="200.66" width="0.1524" layer="91"/>
+<junction x="172.72" y="200.66"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="210.82" x2="182.88" y2="213.36" width="0.1524" layer="91"/>
+<junction x="182.88" y="213.36"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="210.82" x2="190.5" y2="213.36" width="0.1524" layer="91"/>
+<junction x="190.5" y="213.36"/>
 </segment>
 </net>
 <net name="XTALA" class="0">
@@ -10926,31 +10942,33 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <net name="VBAT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VBAT_DIG"/>
-<wire x1="58.42" y1="116.84" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VBAT_RF"/>
-<wire x1="58.42" y1="114.3" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="116.84" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="116.84" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="111.76" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
-<junction x="68.58" y="116.84"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
-<junction x="58.42" y="114.3"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
-<junction x="68.58" y="111.76"/>
+<wire x1="58.42" y1="119.38" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="116.84" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="119.38" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="119.38" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="114.3" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="119.38" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
+<junction x="68.58" y="119.38"/>
 <pinref part="U1" gate="G$1" pin="VBAT_ANA"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="111.76" x2="83.82" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="114.3" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="114.3" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
-<junction x="71.12" y="114.3"/>
+<wire x1="83.82" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="116.84" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="116.84" x2="71.12" y2="119.38" width="0.1524" layer="91"/>
+<junction x="71.12" y="116.84"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="119.38" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
-<junction x="63.5" y="116.84"/>
+<wire x1="63.5" y1="121.92" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
+<junction x="63.5" y="119.38"/>
+<pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="111.76" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
+<junction x="68.58" y="114.3"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="111.76" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="116.84" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
+<junction x="58.42" y="116.84"/>
+<pinref part="C24" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="114.3" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RST_SUP" class="0">
@@ -11204,6 +11222,18 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <wire x1="35.56" y1="40.64" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="1"/>
 <wire x1="35.56" y1="35.56" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="200.66" x2="190.5" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="200.66" x2="185.42" y2="200.66" width="0.1524" layer="91"/>
+<junction x="190.5" y="200.66"/>
+<wire x1="198.12" y1="200.66" x2="198.12" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="EN"/>
+<wire x1="198.12" y1="208.28" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
