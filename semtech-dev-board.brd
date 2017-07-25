@@ -164,11 +164,11 @@
 <wire x1="72.898" y1="-0.254" x2="73.152" y2="82.2198" width="0" layer="20"/>
 <wire x1="73.152" y1="82.2198" x2="-0.254" y2="82.2198" width="0" layer="20"/>
 <wire x1="-0.254" y1="82.2198" x2="-0.254" y2="-0.254" width="0" layer="20"/>
-<text x="14.986" y="34.036" size="1.778" layer="112" rot="R90">semtech-dev-board
+<text x="7.874" y="34.29" size="1.778" layer="112" rot="R90">semtech-dev-board
 Evan Yand
 Portland State Aerospace Society</text>
-<text x="59.182" y="17.78" size="1.778" layer="112">Board #</text>
-<rectangle x1="58.928" y1="1.016" x2="72.136" y2="17.272" layer="112"/>
+<text x="59.182" y="20.066" size="1.778" layer="112">Board #</text>
+<rectangle x1="57.912" y1="3.302" x2="71.12" y2="19.558" layer="112"/>
 <text x="48.26" y="3.81" size="1.778" layer="25" rot="R90">SCK</text>
 <text x="51.054" y="3.81" size="1.778" layer="25" rot="R90">MISO</text>
 <text x="53.34" y="3.81" size="1.778" layer="25" rot="R90">MOSI</text>
@@ -2009,53 +2009,53 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 </pass>
 </autorouter>
 <elements>
-<element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="26.6471375" y="56.35751875" smashed="yes" rot="R180">
+<element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="15pF" x="26.6471375" y="56.35751875" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.3611375" y="56.86551875" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="27.9171375" y="58.89751875" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="27.599640625" y="59.537596875" smashed="yes" rot="R90">
+<element name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="22pF" x="27.599640625" y="59.537596875" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.139640625" y="58.267596875" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="30.139640625" y="58.267596875" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="45.862240625" y="56.489603125" smashed="yes">
+<element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="4.7pF" x="45.862240625" y="56.489603125" smashed="yes">
 <attribute name="NAME" x="48.148240625" y="55.981603125" size="1.27" layer="25"/>
 <attribute name="VALUE" x="44.592240625" y="53.949603125" size="1.27" layer="27"/>
 </element>
-<element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="44.942759375" y="59.69761875" smashed="yes" rot="R90">
+<element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="8.2pF" x="44.942759375" y="59.69761875" smashed="yes" rot="R90">
 <attribute name="NAME" x="43.672759375" y="58.42761875" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="47.482759375" y="58.42761875" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="27.594559375" y="63.644778125" smashed="yes" rot="R90">
+<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="2.7pF" x="27.594559375" y="63.644778125" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.134559375" y="62.120778125" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="30.134559375" y="62.374778125" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="44.9453" y="63.8581375" smashed="yes" rot="R90">
+<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="??" x="44.9453" y="63.8581375" smashed="yes" rot="R90">
 <attribute name="NAME" x="43.6753" y="62.5881375" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="47.4853" y="62.5881375" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="26.6065" y="66.87311875" smashed="yes" rot="R180">
+<element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="15pF" x="26.6065" y="66.87311875" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.3205" y="67.38111875" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="27.8765" y="69.41311875" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="24.6507" y="70.42911875" smashed="yes" rot="R90">
+<element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="??" x="24.6507" y="70.42911875" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.3807" y="69.15911875" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="27.1907" y="69.15911875" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="45.90288125" y="66.946778125" smashed="yes">
+<element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="6.8pF" x="45.90288125" y="66.946778125" smashed="yes">
 <attribute name="NAME" x="48.18888125" y="66.438778125" size="1.27" layer="25"/>
 <attribute name="VALUE" x="44.63288125" y="64.406778125" size="1.27" layer="27"/>
 </element>
-<element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="47.752" y="70.55611875" smashed="yes" rot="R90">
+<element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="??" x="47.752" y="70.55611875" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.546" y="69.03211875" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="50.292" y="69.28611875" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="39.624" y="32.258"/>
-<element name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="26.6065" y="74.122278125" smashed="yes" rot="R180">
+<element name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="8.2pF" x="26.6065" y="74.122278125" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.1945" y="74.884278125" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="27.8765" y="76.662278125" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="470pF" x="21.844" y="16.51"/>
-<element name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="45.910503125" y="74.117196875" smashed="yes">
+<element name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="5.6pF" x="45.910503125" y="74.117196875" smashed="yes">
 <attribute name="NAME" x="48.196503125" y="73.609196875" size="1.27" layer="25"/>
 <attribute name="VALUE" x="44.640503125" y="71.577196875" size="1.27" layer="27"/>
 </element>
@@ -2073,8 +2073,8 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <attribute name="VALUE" x="27.94" y="22.098" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="6pF" x="26.162" y="24.13" rot="R180"/>
-<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="31.937959375" y="47.815496875"/>
-<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="100nF" x="40.64" y="47.752" smashed="yes" rot="R180">
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="10nF" x="31.937959375" y="47.815496875"/>
+<element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="10nF" x="40.64" y="47.752" smashed="yes" rot="R180">
 <attribute name="NAME" x="41.91" y="50.292" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="41.91" y="50.292" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -2095,29 +2095,29 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <attribute name="NAME" x="18.4658" y="1.3208" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="21.844" y="-1.143" size="1.27" layer="27"/>
 </element>
-<element name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="" x="28.9687" y="53.66511875" smashed="yes">
+<element name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="33nH" x="28.9687" y="53.66511875" smashed="yes">
 <attribute name="NAME" x="29.3497" y="50.74411875" size="1.27" layer="25"/>
 <attribute name="VALUE" x="27.0637" y="50.49011875" size="1.27" layer="27"/>
 </element>
-<element name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="" x="43.5356" y="53.792121875" smashed="yes" rot="R180">
+<element name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="33nH" x="43.5356" y="53.792121875" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.1546" y="51.887121875" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="45.4406" y="56.967121875" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="L3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="" x="27.59201875" y="49.425859375" rot="R90"/>
-<element name="L4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="" x="44.958" y="49.53" rot="R270"/>
-<element name="L5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L1812" value="" x="24.3967" y="62.55511875" smashed="yes" rot="R270">
+<element name="L3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="10nH" x="27.59201875" y="49.425859375" rot="R90"/>
+<element name="L4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="3.9nH" x="44.958" y="49.53" rot="R270"/>
+<element name="L5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L1812" value="12nH" x="24.3967" y="62.55511875" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.2217" y="61.66611875" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="21.2217" y="64.46011875" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="L6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="" x="48.0923625" y="63.408559375" smashed="yes" rot="R270">
+<element name="L6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="6.8nH" x="48.0923625" y="63.408559375" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.9973625" y="63.027559375" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="44.9173625" y="65.313559375" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="L7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="" x="27.55138125" y="70.457059375" smashed="yes" rot="R270">
+<element name="L7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="10nH" x="27.55138125" y="70.457059375" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.45638125" y="71.600059375" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="24.37638125" y="72.362059375" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="L8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="" x="44.955459375" y="70.556121875" smashed="yes" rot="R270">
+<element name="L8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3230M" value="6.8nH" x="44.955459375" y="70.556121875" smashed="yes" rot="R270">
 <attribute name="NAME" x="42.034459375" y="71.445121875" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="41.780459375" y="72.461121875" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -2309,6 +2309,199 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <via x="70.104" y="45.974" extent="1-16" drill="0.35"/>
 <via x="69.088" y="45.974" extent="1-16" drill="0.35"/>
 <via x="69.342" y="37.592" extent="1-16" drill="0.35"/>
+<via x="3.302" y="81.026" extent="1-16" drill="0.35"/>
+<via x="3.302" y="80.01" extent="1-16" drill="0.35"/>
+<via x="3.302" y="78.994" extent="1-16" drill="0.35"/>
+<via x="3.302" y="77.978" extent="1-16" drill="0.35"/>
+<via x="3.302" y="76.962" extent="1-16" drill="0.35"/>
+<via x="3.302" y="75.946" extent="1-16" drill="0.35"/>
+<via x="4.318" y="75.946" extent="1-16" drill="0.35"/>
+<via x="5.334" y="75.946" extent="1-16" drill="0.35"/>
+<via x="6.35" y="75.946" extent="1-16" drill="0.35"/>
+<via x="7.112" y="75.438" extent="1-16" drill="0.35"/>
+<via x="7.112" y="74.422" extent="1-16" drill="0.35"/>
+<via x="7.112" y="73.406" extent="1-16" drill="0.35"/>
+<via x="7.112" y="72.39" extent="1-16" drill="0.35"/>
+<via x="7.874" y="71.882" extent="1-16" drill="0.35"/>
+<via x="8.89" y="71.882" extent="1-16" drill="0.35"/>
+<via x="8.89" y="70.866" extent="1-16" drill="0.35"/>
+<via x="8.89" y="69.85" extent="1-16" drill="0.35"/>
+<via x="8.89" y="68.834" extent="1-16" drill="0.35"/>
+<via x="8.89" y="67.818" extent="1-16" drill="0.35"/>
+<via x="8.89" y="66.802" extent="1-16" drill="0.35"/>
+<via x="8.89" y="65.786" extent="1-16" drill="0.35"/>
+<via x="8.89" y="64.77" extent="1-16" drill="0.35"/>
+<via x="8.89" y="63.754" extent="1-16" drill="0.35"/>
+<via x="8.89" y="62.738" extent="1-16" drill="0.35"/>
+<via x="8.89" y="61.722" extent="1-16" drill="0.35"/>
+<via x="8.89" y="60.706" extent="1-16" drill="0.35"/>
+<via x="8.89" y="59.69" extent="1-16" drill="0.35"/>
+<via x="8.89" y="58.674" extent="1-16" drill="0.35"/>
+<via x="8.89" y="57.658" extent="1-16" drill="0.35"/>
+<via x="8.89" y="56.642" extent="1-16" drill="0.35"/>
+<via x="8.89" y="55.626" extent="1-16" drill="0.35"/>
+<via x="8.89" y="54.61" extent="1-16" drill="0.35"/>
+<via x="8.89" y="53.594" extent="1-16" drill="0.35"/>
+<via x="9.652" y="52.832" extent="1-16" drill="0.35"/>
+<via x="10.414" y="52.07" extent="1-16" drill="0.35"/>
+<via x="11.176" y="51.308" extent="1-16" drill="0.35"/>
+<via x="11.938" y="50.546" extent="1-16" drill="0.35"/>
+<via x="12.7" y="49.784" extent="1-16" drill="0.35"/>
+<via x="13.462" y="49.022" extent="1-16" drill="0.35"/>
+<via x="14.224" y="48.26" extent="1-16" drill="0.35"/>
+<via x="14.986" y="47.498" extent="1-16" drill="0.35"/>
+<via x="15.748" y="46.736" extent="1-16" drill="0.35"/>
+<via x="16.51" y="45.974" extent="1-16" drill="0.35"/>
+<via x="17.272" y="45.212" extent="1-16" drill="0.35"/>
+<via x="18.034" y="44.45" extent="1-16" drill="0.35"/>
+<via x="18.796" y="43.688" extent="1-16" drill="0.35"/>
+<via x="19.558" y="42.926" extent="1-16" drill="0.35"/>
+<via x="20.32" y="42.164" extent="1-16" drill="0.35"/>
+<via x="21.844" y="40.64" extent="1-16" drill="0.35"/>
+<via x="22.606" y="39.878" extent="1-16" drill="0.35"/>
+<via x="23.368" y="39.116" extent="1-16" drill="0.35"/>
+<via x="24.13" y="38.354" extent="1-16" drill="0.35"/>
+<via x="24.892" y="37.592" extent="1-16" drill="0.35"/>
+<via x="25.654" y="36.83" extent="1-16" drill="0.35"/>
+<via x="26.416" y="36.068" extent="1-16" drill="0.35"/>
+<via x="27.178" y="35.306" extent="1-16" drill="0.35"/>
+<via x="27.94" y="34.544" extent="1-16" drill="0.35"/>
+<via x="30.226" y="32.258" extent="1-16" drill="0.35"/>
+<via x="30.988" y="31.496" extent="1-16" drill="0.35"/>
+<via x="31.75" y="30.734" extent="1-16" drill="0.35"/>
+<via x="32.766" y="33.528" extent="1-16" drill="0.35"/>
+<via x="32.004" y="34.29" extent="1-16" drill="0.35"/>
+<via x="31.242" y="35.052" extent="1-16" drill="0.35"/>
+<via x="30.48" y="35.814" extent="1-16" drill="0.35"/>
+<via x="29.718" y="36.576" extent="1-16" drill="0.35"/>
+<via x="28.956" y="37.338" extent="1-16" drill="0.35"/>
+<via x="28.448" y="38.1" extent="1-16" drill="0.35"/>
+<via x="28.448" y="39.116" extent="1-16" drill="0.35"/>
+<via x="26.67" y="38.354" extent="1-16" drill="0.35"/>
+<via x="25.908" y="39.116" extent="1-16" drill="0.35"/>
+<via x="25.146" y="39.878" extent="1-16" drill="0.35"/>
+<via x="28.448" y="40.132" extent="1-16" drill="0.35"/>
+<via x="28.448" y="41.148" extent="1-16" drill="0.35"/>
+<via x="28.448" y="42.164" extent="1-16" drill="0.35"/>
+<via x="21.082" y="41.402" extent="1-16" drill="0.35"/>
+<via x="26.67" y="39.624" extent="1-16" drill="0.35"/>
+<via x="26.67" y="40.64" extent="1-16" drill="0.35"/>
+<via x="26.67" y="41.656" extent="1-16" drill="0.35"/>
+<via x="26.67" y="42.672" extent="1-16" drill="0.35"/>
+<via x="26.67" y="43.688" extent="1-16" drill="0.35"/>
+<via x="26.67" y="44.704" extent="1-16" drill="0.35"/>
+<via x="26.67" y="45.72" extent="1-16" drill="0.35"/>
+<via x="24.384" y="40.64" extent="1-16" drill="0.35"/>
+<via x="23.622" y="41.402" extent="1-16" drill="0.35"/>
+<via x="22.86" y="42.164" extent="1-16" drill="0.35"/>
+<via x="22.098" y="42.926" extent="1-16" drill="0.35"/>
+<via x="21.336" y="43.688" extent="1-16" drill="0.35"/>
+<via x="20.574" y="44.45" extent="1-16" drill="0.35"/>
+<via x="19.812" y="45.212" extent="1-16" drill="0.35"/>
+<via x="19.05" y="45.974" extent="1-16" drill="0.35"/>
+<via x="25.908" y="46.482" extent="1-16" drill="0.35"/>
+<via x="18.288" y="46.736" extent="1-16" drill="0.35"/>
+<via x="17.526" y="47.498" extent="1-16" drill="0.35"/>
+<via x="16.764" y="48.26" extent="1-16" drill="0.35"/>
+<via x="16.002" y="49.022" extent="1-16" drill="0.35"/>
+<via x="15.24" y="49.784" extent="1-16" drill="0.35"/>
+<via x="14.478" y="50.546" extent="1-16" drill="0.35"/>
+<via x="13.716" y="51.308" extent="1-16" drill="0.35"/>
+<via x="12.954" y="52.07" extent="1-16" drill="0.35"/>
+<via x="12.192" y="52.832" extent="1-16" drill="0.35"/>
+<via x="11.43" y="53.594" extent="1-16" drill="0.35"/>
+<via x="10.922" y="54.356" extent="1-16" drill="0.35"/>
+<via x="10.922" y="55.372" extent="1-16" drill="0.35"/>
+<via x="10.922" y="56.388" extent="1-16" drill="0.35"/>
+<via x="10.922" y="57.404" extent="1-16" drill="0.35"/>
+<via x="10.922" y="58.42" extent="1-16" drill="0.35"/>
+<via x="10.922" y="59.436" extent="1-16" drill="0.35"/>
+<via x="10.922" y="60.452" extent="1-16" drill="0.35"/>
+<via x="10.922" y="61.468" extent="1-16" drill="0.35"/>
+<via x="10.922" y="62.484" extent="1-16" drill="0.35"/>
+<via x="10.922" y="63.5" extent="1-16" drill="0.35"/>
+<via x="10.922" y="64.516" extent="1-16" drill="0.35"/>
+<via x="10.922" y="65.532" extent="1-16" drill="0.35"/>
+<via x="10.922" y="66.548" extent="1-16" drill="0.35"/>
+<via x="10.922" y="67.564" extent="1-16" drill="0.35"/>
+<via x="10.922" y="68.58" extent="1-16" drill="0.35"/>
+<via x="10.922" y="69.596" extent="1-16" drill="0.35"/>
+<via x="10.922" y="70.612" extent="1-16" drill="0.35"/>
+<via x="10.922" y="71.882" extent="1-16" drill="0.35"/>
+<via x="11.938" y="71.882" extent="1-16" drill="0.35"/>
+<via x="12.7" y="72.39" extent="1-16" drill="0.35"/>
+<via x="12.7" y="73.406" extent="1-16" drill="0.35"/>
+<via x="12.7" y="74.422" extent="1-16" drill="0.35"/>
+<via x="12.7" y="75.438" extent="1-16" drill="0.35"/>
+<via x="13.462" y="75.946" extent="1-16" drill="0.35"/>
+<via x="14.478" y="75.946" extent="1-16" drill="0.35"/>
+<via x="15.494" y="75.946" extent="1-16" drill="0.35"/>
+<via x="16.51" y="75.946" extent="1-16" drill="0.35"/>
+<via x="16.51" y="76.962" extent="1-16" drill="0.35"/>
+<via x="16.51" y="77.978" extent="1-16" drill="0.35"/>
+<via x="16.51" y="78.994" extent="1-16" drill="0.35"/>
+<via x="16.51" y="80.01" extent="1-16" drill="0.35"/>
+<via x="16.51" y="81.026" extent="1-16" drill="0.35"/>
+<via x="25.4" y="47.244" extent="1-16" drill="0.35"/>
+<via x="25.4" y="48.26" extent="1-16" drill="0.35"/>
+<via x="25.4" y="49.276" extent="1-16" drill="0.35"/>
+<via x="25.4" y="50.292" extent="1-16" drill="0.35"/>
+<via x="25.4" y="51.308" extent="1-16" drill="0.35"/>
+<via x="25.4" y="52.324" extent="1-16" drill="0.35"/>
+<via x="25.4" y="53.34" extent="1-16" drill="0.35"/>
+<via x="24.892" y="54.102" extent="1-16" drill="0.35"/>
+<via x="24.13" y="54.61" extent="1-16" drill="0.35"/>
+<via x="24.13" y="55.626" extent="1-16" drill="0.35"/>
+<via x="24.13" y="56.642" extent="1-16" drill="0.35"/>
+<via x="24.13" y="57.658" extent="1-16" drill="0.35"/>
+<via x="25.146" y="57.912" extent="1-16" drill="0.35"/>
+<via x="26.162" y="57.912" extent="1-16" drill="0.35"/>
+<via x="26.162" y="58.928" extent="1-16" drill="0.35"/>
+<via x="25.146" y="58.928" extent="1-16" drill="0.35"/>
+<via x="24.13" y="58.928" extent="1-16" drill="0.35"/>
+<via x="23.114" y="58.928" extent="1-16" drill="0.35"/>
+<via x="22.098" y="59.182" extent="1-16" drill="0.35"/>
+<via x="21.844" y="60.198" extent="1-16" drill="0.35"/>
+<via x="21.844" y="61.214" extent="1-16" drill="0.35"/>
+<via x="21.844" y="62.23" extent="1-16" drill="0.35"/>
+<via x="21.844" y="63.246" extent="1-16" drill="0.35"/>
+<via x="21.844" y="64.262" extent="1-16" drill="0.35"/>
+<via x="21.844" y="65.278" extent="1-16" drill="0.35"/>
+<via x="22.352" y="66.04" extent="1-16" drill="0.35"/>
+<via x="23.368" y="66.04" extent="1-16" drill="0.35"/>
+<via x="24.13" y="66.548" extent="1-16" drill="0.35"/>
+<via x="24.13" y="67.564" extent="1-16" drill="0.35"/>
+<via x="23.368" y="68.072" extent="1-16" drill="0.35"/>
+<via x="22.86" y="68.834" extent="1-16" drill="0.35"/>
+<via x="22.86" y="69.85" extent="1-16" drill="0.35"/>
+<via x="22.86" y="70.866" extent="1-16" drill="0.35"/>
+<via x="22.86" y="71.882" extent="1-16" drill="0.35"/>
+<via x="22.86" y="72.898" extent="1-16" drill="0.35"/>
+<via x="23.876" y="72.898" extent="1-16" drill="0.35"/>
+<via x="23.876" y="73.914" extent="1-16" drill="0.35"/>
+<via x="23.876" y="74.93" extent="1-16" drill="0.35"/>
+<via x="24.384" y="75.692" extent="1-16" drill="0.35"/>
+<via x="25.4" y="75.692" extent="1-16" drill="0.35"/>
+<via x="26.416" y="75.692" extent="1-16" drill="0.35"/>
+<via x="23.368" y="75.692" extent="1-16" drill="0.35"/>
+<via x="22.352" y="75.692" extent="1-16" drill="0.35"/>
+<via x="21.336" y="75.692" extent="1-16" drill="0.35"/>
+<via x="21.082" y="76.708" extent="1-16" drill="0.35"/>
+<via x="21.082" y="77.724" extent="1-16" drill="0.35"/>
+<via x="21.082" y="78.74" extent="1-16" drill="0.35"/>
+<via x="21.082" y="79.756" extent="1-16" drill="0.35"/>
+<via x="21.082" y="80.772" extent="1-16" drill="0.35"/>
+<via x="28.702" y="75.692" extent="1-16" drill="0.35"/>
+<via x="29.718" y="75.692" extent="1-16" drill="0.35"/>
+<via x="30.734" y="75.692" extent="1-16" drill="0.35"/>
+<via x="31.75" y="75.692" extent="1-16" drill="0.35"/>
+<via x="32.766" y="75.692" extent="1-16" drill="0.35"/>
+<via x="33.782" y="75.692" extent="1-16" drill="0.35"/>
+<via x="34.29" y="76.454" extent="1-16" drill="0.35"/>
+<via x="34.29" y="77.47" extent="1-16" drill="0.35"/>
+<via x="34.29" y="78.486" extent="1-16" drill="0.35"/>
+<via x="34.29" y="79.502" extent="1-16" drill="0.35"/>
+<via x="34.29" y="80.518" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="SPI_NSS">
 <contactref element="U1" pad="19"/>
@@ -2636,9 +2829,9 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <contactref element="U1" pad="28"/>
 <contactref element="L3" pad="1"/>
 <wire x1="34.42" y1="29.947" x2="34.42" y2="30.604" width="0.342975" layer="1"/>
-<wire x1="34.42" y1="30.604" x2="27.686" y2="37.338" width="0.342975" layer="1"/>
-<wire x1="27.686" y1="37.338" x2="27.686" y2="47.919178125" width="0.342975" layer="1"/>
-<wire x1="27.686" y1="47.919178125" x2="27.59201875" y2="48.025859375" width="0.1524" layer="1"/>
+<wire x1="34.42" y1="30.604" x2="27.686003125" y2="37.259259375" width="0.342975" layer="1"/>
+<wire x1="27.686003125" y1="37.259259375" x2="27.632659375" y2="47.95981875" width="0.342975" layer="1"/>
+<wire x1="27.632659375" y1="47.95981875" x2="27.59201875" y2="48.025859375" width="0.1524" layer="1"/>
 </signal>
 <signal name="RFO_LF_PA">
 <contactref element="L3" pad="2"/>
