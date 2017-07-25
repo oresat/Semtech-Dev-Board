@@ -379,6 +379,21 @@ Epson Toyocom FCC-255</description>
 <text x="-2.794" y="1.524" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="-2.794" y="-1.905" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="DCC6C">
+<smd name="P$6" x="0.3" y="0.375" dx="0.75" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$5" x="1.5" y="0.375" dx="0.75" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$4" x="2.7" y="0.375" dx="0.75" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$3" x="2.7" y="2.625" dx="0.75" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$2" x="1.5" y="2.625" dx="0.75" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$1" x="0.3" y="2.25" dx="1.5" dy="0.6" layer="1" rot="R90"/>
+<wire x1="0" y1="0" x2="0" y2="3" width="0.127" layer="21"/>
+<wire x1="0" y1="3" x2="3" y2="3" width="0.127" layer="21"/>
+<wire x1="3" y1="3" x2="3" y2="0" width="0.127" layer="21"/>
+<wire x1="3" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<text x="-0.3" y="2.75" size="0.25" layer="21">1</text>
+<text x="-2" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="0.05" y="-1.45" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SEMTECH_SX1236">
@@ -441,6 +456,57 @@ Epson Toyocom FCC-255</description>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SAW_RF_FILTER">
+<wire x1="0" y1="15.24" x2="20.32" y2="15.24" width="0.254" layer="94"/>
+<wire x1="20.32" y1="15.24" x2="20.32" y2="12.7" width="0.254" layer="94"/>
+<wire x1="20.32" y1="12.7" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="7.366" width="0.254" layer="94"/>
+<wire x1="3.81" y1="7.366" x2="5.08" y2="7.366" width="0.254" layer="94"/>
+<wire x1="3.81" y1="7.366" x2="2.54" y2="7.366" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.874" x2="3.81" y2="7.874" width="0.254" layer="94"/>
+<wire x1="3.81" y1="7.874" x2="5.08" y2="7.874" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="8.382" y2="5.08" width="0.254" layer="94"/>
+<wire x1="8.382" y1="5.08" x2="8.382" y2="10.16" width="0.254" layer="94"/>
+<wire x1="8.382" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="6.858" y2="10.16" width="0.254" layer="94"/>
+<wire x1="6.858" y1="10.16" x2="6.858" y2="5.08" width="0.254" layer="94"/>
+<wire x1="6.858" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="3.81" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="3.81" y2="12.7" width="0.254" layer="94"/>
+<wire x1="3.81" y1="12.7" x2="3.81" y2="7.874" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="16.51" y2="2.54" width="0.254" layer="94"/>
+<wire x1="16.51" y1="2.54" x2="16.51" y2="7.366" width="0.254" layer="94"/>
+<wire x1="16.51" y1="7.366" x2="15.24" y2="7.366" width="0.254" layer="94"/>
+<wire x1="16.51" y1="7.366" x2="17.78" y2="7.366" width="0.254" layer="94"/>
+<wire x1="17.78" y1="7.874" x2="16.51" y2="7.874" width="0.254" layer="94"/>
+<wire x1="16.51" y1="7.874" x2="15.24" y2="7.874" width="0.254" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="11.938" y2="5.08" width="0.254" layer="94"/>
+<wire x1="11.938" y1="5.08" x2="11.938" y2="10.16" width="0.254" layer="94"/>
+<wire x1="11.938" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="13.462" y2="10.16" width="0.254" layer="94"/>
+<wire x1="13.462" y1="10.16" x2="13.462" y2="5.08" width="0.254" layer="94"/>
+<wire x1="13.462" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="16.51" y2="12.7" width="0.254" layer="94"/>
+<wire x1="20.32" y1="12.7" x2="16.51" y2="12.7" width="0.254" layer="94"/>
+<wire x1="16.51" y1="12.7" x2="16.51" y2="7.874" width="0.254" layer="94"/>
+<pin name="IN" x="-5.08" y="12.7" length="middle"/>
+<pin name="GND" x="10.16" y="-5.08" length="middle" rot="R90"/>
+<pin name="OUT" x="25.4" y="12.7" length="middle" rot="R180"/>
+<text x="0" y="15.24" size="1.27" layer="95">&gt;NAME</text>
+<text x="12.7" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -603,6 +669,44 @@ Epson Toyocom FCC-255</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="QUALCOMM-TDK_B3588" prefix="U">
+<description>Qualcomm/TDK SAW Filter 
+
+902-928 MHz</description>
+<gates>
+<gate name="G$1" symbol="SAW_RF_FILTER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DCC6C">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$1 P$3 P$4 P$6"/>
+<connect gate="G$1" pin="IN" pad="P$2"/>
+<connect gate="G$1" pin="OUT" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="QUALCOMM-TDK_B3710" prefix="U">
+<description>Qualcomm/TDK SAW FIlter 433.0-433.71 MHz</description>
+<gates>
+<gate name="G$1" symbol="SAW_RF_FILTER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DCC6C">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$1 P$3 P$4 P$6"/>
+<connect gate="G$1" pin="IN" pad="P$2"/>
+<connect gate="G$1" pin="OUT" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1">
@@ -657,7 +761,7 @@ Epson Toyocom FCC-255</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="pinhead">
+<library name="pinhead" urn="urn:adsk.eagle:library:325">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
@@ -1040,7 +1144,7 @@ Epson Toyocom FCC-255</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="led">
+<library name="led" urn="urn:adsk.eagle:library:259">
 <description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
 Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
@@ -2545,7 +2649,7 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor-small-signal">
+<library name="transistor-small-signal" urn="urn:adsk.eagle:library:401">
 <description>&lt;b&gt;Small Signal Transistors&lt;/b&gt;&lt;p&gt;
 Packages from :&lt;br&gt;
 www.infineon.com; &lt;br&gt;
@@ -2633,7 +2737,7 @@ www.irf.com&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="rcl">
+<library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
 &lt;ul&gt;
@@ -3745,22 +3849,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-</package>
-<package name="R1005">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="R1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
@@ -5298,22 +5386,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
-</package>
-<package name="C1005">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="C1206">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
@@ -7808,6 +7880,28 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <text x="-4.5056" y="4.6326" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.5056" y="-6.4106" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="R01005" library_version="1">
+<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
+<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
+</package>
+<package name="C01005" library_version="1">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<smd name="1" x="-0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<smd name="2" x="0.1625" y="0" dx="0.2" dy="0.25" layer="1"/>
+<text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="-0.1" x2="-0.075" y2="0.1" layer="51"/>
+<rectangle x1="0.075" y1="-0.1" x2="0.2" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
+<rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R-US">
@@ -7851,7 +7945,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R-US_" prefix="R" uservalue="yes">
+<deviceset name="R-US_" prefix="R" uservalue="yes" library_version="1">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
@@ -7885,15 +7979,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </technologies>
 </device>
 <device name="R0805W" package="R0805W">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="R1005" package="R1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -8622,9 +8707,18 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="01005" package="R01005">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="C-US" prefix="C" uservalue="yes">
+<deviceset name="C-US" prefix="C" uservalue="yes" library_version="1">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="C-US" x="0" y="0"/>
@@ -8658,15 +8752,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </technologies>
 </device>
 <device name="C0805" package="C0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="C1005" package="C1005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -9324,6 +9409,15 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </technologies>
 </device>
 <device name="C3640" package="C3640">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="01005" package="C01005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -9997,7 +10091,7 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 </deviceset>
 </devicesets>
 </library>
-<library name="frames">
+<library name="frames" urn="urn:adsk.eagle:library:229">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
 </packages>
@@ -11206,66 +11300,66 @@ slots specified by the manufactuer for this package (0.635&amp;nbsp;mm).</descri
 </classes>
 <parts>
 <part name="U1" library="low-gain-radio" deviceset="SEMTECH_SX1236" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X7" device=""/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X7" device=""/>
 <part name="Q2" library="low-gain-radio" deviceset="CRYSTAL" device="2.5X2.0MM" value="32MHz"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="transistor-small-signal" deviceset="BSS123" device=""/>
+<part name="Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="JP5" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="U3" library="SparkFun-IC-Power" deviceset="V_REG_MIC5219" device="3.3V" value="MIC5219 3.3V"/>
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="C21" library="rcl" deviceset="C-US" device="C0805" value="470pF"/>
-<part name="C23" library="rcl" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="470pF"/>
+<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="R4" library="rcl" deviceset="R-US_" device="R0805" value="0"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="R0805" value="0"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="0"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="0"/>
 <part name="TP1" library="low-gain-radio" deviceset="TEST-POINT" device=""/>
 <part name="TP2" library="low-gain-radio" deviceset="TEST-POINT" device=""/>
 <part name="TP4" library="low-gain-radio" deviceset="TEST-POINT" device=""/>
 <part name="TP5" library="low-gain-radio" deviceset="TEST-POINT" device=""/>
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
-<part name="C5" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C4" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C2" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="TP6" library="low-gain-radio" deviceset="TEST-POINT" device=""/>
-<part name="C6" library="rcl" deviceset="C-US" device="C0805" value="6pF"/>
-<part name="C7" library="rcl" deviceset="C-US" device="C0805" value="6pF"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="6pF"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="6pF"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0805" value="0"/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="0"/>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device=""/>
 <part name="TP7" library="low-gain-radio" deviceset="TEST-POINT" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="L3" library="rcl" deviceset="L-US" device="L3230M"/>
-<part name="L1" library="rcl" deviceset="L-US" device="L3230M"/>
-<part name="C10" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C11" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="L5" library="rcl" deviceset="L-US" device="L1812"/>
-<part name="L7" library="rcl" deviceset="L-US" device="L3230M"/>
-<part name="C14" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C17" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C16" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C20" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C12" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C13" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="L6" library="rcl" deviceset="L-US" device="L3230M"/>
-<part name="L8" library="rcl" deviceset="L-US" device="L3230M"/>
-<part name="C15" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C19" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C18" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C22" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="L4" library="rcl" deviceset="L-US" device="L3230M"/>
-<part name="L2" library="rcl" deviceset="L-US" device="L3230M"/>
-<part name="C9" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="JP4" library="pinhead" deviceset="PINHD-1X4" device=""/>
-<part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="L3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3230M"/>
+<part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3230M"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="L5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L1812"/>
+<part name="L7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3230M"/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="L6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3230M"/>
+<part name="L8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3230M"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="L4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3230M"/>
+<part name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3230M"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="JP3" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
@@ -11281,10 +11375,10 @@ slots specified by the manufactuer for this package (0.635&amp;nbsp;mm).</descri
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C24" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C26" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="C27" library="rcl" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="C28" library="rcl" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="10uF"/>
+<part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" value="100nF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="S2" library="psas_c3_team05" deviceset="SWITCH-MOMENTARY-2" device="SMD-2"/>
 <part name="CF1" library="psas_c3_team05" deviceset="CON_USB-MICRO-B-RECEPTACLE-*" device="PTH-HIROSE-ZX62D-B-5P8"/>
@@ -11293,8 +11387,12 @@ slots specified by the manufactuer for this package (0.635&amp;nbsp;mm).</descri
 <part name="U$3" library="psas_c3_team05" deviceset="SMAJ716-ND" device=""/>
 <part name="U$4" library="psas_c3_team05" deviceset="SMAJ716-ND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R0805" value="1k"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="R0805" value="0"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="1k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" value="0"/>
+<part name="U2" library="low-gain-radio" deviceset="QUALCOMM-TDK_B3588" device=""/>
+<part name="U4" library="low-gain-radio" deviceset="QUALCOMM-TDK_B3710" device=""/>
+<part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11424,6 +11522,10 @@ slots specified by the manufactuer for this package (0.635&amp;nbsp;mm).</descri
 <instance part="+3V1" gate="G$1" x="27.94" y="96.52"/>
 <instance part="R1" gate="G$1" x="27.94" y="86.36" rot="R90"/>
 <instance part="R2" gate="G$1" x="10.16" y="132.08" rot="R90"/>
+<instance part="U2" gate="G$1" x="236.22" y="38.1"/>
+<instance part="U4" gate="G$1" x="236.22" y="147.32"/>
+<instance part="GND27" gate="1" x="246.38" y="139.7"/>
+<instance part="GND28" gate="1" x="246.38" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -11593,6 +11695,14 @@ slots specified by the manufactuer for this package (0.635&amp;nbsp;mm).</descri
 <pinref part="GND26" gate="1" pin="GND"/>
 <wire x1="279.4" y1="152.4" x2="279.4" y2="147.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="GND"/>
+<pinref part="GND27" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="SPI_NSS" class="0">
 <segment>
@@ -11603,20 +11713,13 @@ slots specified by the manufactuer for this package (0.635&amp;nbsp;mm).</descri
 <pinref part="JP2" gate="A" pin="4"/>
 </segment>
 </net>
-<net name="RFI_HF" class="0">
-<segment>
-<wire x1="271.78" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="RFI_HF"/>
-<pinref part="U$4" gate="G$1" pin="CENTERCONDUCTOR"/>
-</segment>
-</net>
 <net name="RFI_LF" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RFI_LF"/>
 <wire x1="86.36" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="58.42" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="160.02" x2="271.78" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="CENTERCONDUCTOR"/>
+<pinref part="U4" gate="G$1" pin="IN"/>
+<wire x1="231.14" y1="160.02" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RFO_HF" class="0">
@@ -12081,6 +12184,27 @@ slots specified by the manufactuer for this package (0.635&amp;nbsp;mm).</descri
 <wire x1="198.12" y1="200.66" x2="198.12" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="EN"/>
 <wire x1="198.12" y1="208.28" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RFI_HF" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IN"/>
+<wire x1="86.36" y1="50.8" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="RFI_HF"/>
+</segment>
+</net>
+<net name="RFI_HF_ANT" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="OUT"/>
+<pinref part="U$4" gate="G$1" pin="CENTERCONDUCTOR"/>
+<wire x1="261.62" y1="50.8" x2="271.78" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="OUT"/>
+<pinref part="U$1" gate="G$1" pin="CENTERCONDUCTOR"/>
+<wire x1="261.62" y1="160.02" x2="271.78" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
