@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13757,6 +13757,8 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="U4" library="low-gain-radio" deviceset="SEMTECH_SX1236" device=""/>
+<part name="C24" library="rcl_custom" deviceset="C-EU" device="0603-B-NOSILK" value="100nF"/>
+<part name="GND31" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13925,6 +13927,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="NAME" x="147.32" y="45.72" size="2.54" layer="95"/>
 <attribute name="VALUE" x="147.32" y="41.91" size="2.54" layer="96"/>
 </instance>
+<instance part="C24" gate="CE" x="171.45" y="120.65" smashed="yes">
+<attribute name="NAME" x="172.466" y="121.285" size="1.778" layer="95"/>
+<attribute name="VALUE" x="171.45" y="116.459" size="1.778" layer="96"/>
+</instance>
+<instance part="GND31" gate="1" x="171.45" y="113.03"/>
 </instances>
 <busses>
 </busses>
@@ -14102,6 +14109,10 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="CF4" gate="G$1" pin="GND"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 <wire x1="342.9" y1="73.66" x2="342.9" y2="74.93" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C24" gate="CE" pin="2"/>
+<pinref part="GND31" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SPI_NSS" class="0">
@@ -14439,7 +14450,6 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="142.24" y1="114.3" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="134.62" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="132.08" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
 <label x="195.58" y="127" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP3" gate="A" pin="2"/>
 <wire x1="205.74" y1="134.62" x2="195.58" y2="134.62" width="0.1524" layer="91"/>
@@ -14447,6 +14457,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="205.74" y1="132.08" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
 <junction x="195.58" y="132.08"/>
 <pinref part="U4" gate="G$1" pin="VR_PA"/>
+<pinref part="C24" gate="CE" pin="1"/>
+<wire x1="142.24" y1="124.46" x2="171.45" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="171.45" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="171.45" y1="123.19" x2="171.45" y2="124.46" width="0.1524" layer="91"/>
+<junction x="171.45" y="124.46"/>
 </segment>
 </net>
 <net name="RFO_HF_OUT" class="0">

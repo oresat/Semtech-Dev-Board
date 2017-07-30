@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.02" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.02" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="yes"/>
@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -3202,7 +3202,7 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <attribute name="VALUE" x="43.87" y="57.74" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C12" library="rcl_custom" package=".0603-B-NOSILK" value="100nF" x="38.4" y="32.3" smashed="yes">
-<attribute name="NAME" x="38.3" y="33.1" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="38.2" y="33.1" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="38.4" y="32.3" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="37.2" y="30.7" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
@@ -3334,7 +3334,7 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <attribute name="NAME" x="12.5" y="18.2" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP2" library="low-gain-radio" package="2MM-TEST-POINT" value="TEST-POINT" x="33.7" y="34.4" smashed="yes">
-<attribute name="NAME" x="34.8" y="34.2" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="30.9" y="34.1" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="U4" library="low-gain-radio" package="QFN28" value="SEMTECH_SX1236" x="36.3" y="26.9" smashed="yes">
 <attribute name="NAME" x="37.4" y="22.7" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -3420,6 +3420,11 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <element name="CF4" library="psas_c3_team05" package="SMAJ716-ND" value="142-0701-806" x="64" y="63.4" smashed="yes">
 <attribute name="NAME" x="70" y="61.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="71.112" y="61.876" size="1.27" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="C24" library="rcl_custom" package=".0603-B-NOSILK" value="100nF" x="37.1" y="35.5" smashed="yes">
+<attribute name="NAME" x="36.3" y="34.2" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="37.1" y="35.5" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="VALUE" x="35.9" y="33.9" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 </elements>
 <signals>
@@ -3787,6 +3792,8 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 </polygon>
 <wire x1="39.275" y1="24.95" x2="40.408575" y2="24.95" width="0.3" layer="1"/>
 <wire x1="40.408575" y1="24.95" x2="40.599996875" y2="24.758578125" width="0.3" layer="1"/>
+<contactref element="C24" pad="2"/>
+<via x="39" y="35.5" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="SPI_NSS">
 <contactref element="U4" pad="19"/>
@@ -4103,9 +4110,11 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <contactref element="U4" pad="25"/>
 <contactref element="JP3" pad="2"/>
 <contactref element="JP3" pad="3"/>
-<wire x1="36.3" y1="38.2" x2="36.3" y2="29.975" width="0.3" layer="1"/>
-<wire x1="36.3" y1="38.2" x2="37.57" y2="38.2" width="0.3" layer="1"/>
+<wire x1="37.57" y1="38.2" x2="36.3" y2="38.2" width="0.3" layer="1"/>
 <wire x1="35.03" y1="38.2" x2="36.3" y2="38.2" width="0.3" layer="1"/>
+<contactref element="C24" pad="1"/>
+<wire x1="36.3" y1="35.5" x2="36.3" y2="29.975" width="0.3" layer="1"/>
+<wire x1="36.3" y1="35.5" x2="36.3" y2="38.2" width="0.3" layer="1"/>
 </signal>
 <signal name="RFO_HF_OUT">
 <contactref element="L7" pad="1"/>
