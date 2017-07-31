@@ -1922,7 +1922,7 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="psas-4Lyr_v1.0.0.3">
+<designrules name="psas-4Lyr_v1.0.0.3 *">
 <description language="en">
 &lt;b&gt;PSAS EAGLE Design Rules for 4 Layer Designs&lt;/b&gt;
 
@@ -1981,7 +1981,7 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="11mil"/>
+<param name="mlViaStopLimit" value="0.4mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -3213,28 +3213,31 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <approved hash="4,16,bf0a7c1038f9ebe5"/>
 <approved hash="18,29,4e00398c39484ec4"/>
 <approved hash="18,29,3c9f1b5f4f0150e1"/>
+<approved hash="18,29,df9305a07245da0d"/>
+<approved hash="18,29,b7a230f4a045524e"/>
+<approved hash="18,29,af79c6e345b40b5d"/>
 <approved hash="3,16,ad6a8d2483f902b3"/>
 <approved hash="3,16,65686d58d19838b0"/>
 <approved hash="18,29,3339177fcb31ef77"/>
 <approved hash="18,29,3b08f3ba2261ead3"/>
-<approved hash="18,29,776defb553764eca"/>
 <approved hash="18,29,408b5203fed476c0"/>
-<approved hash="18,29,066208f0a0d37842"/>
+<approved hash="18,29,776defb553764eca"/>
 <approved hash="18,29,695ab1400f600179"/>
+<approved hash="18,29,066208f0a0d37842"/>
 <approved hash="18,29,8c4cd1d9fcbf0a3d"/>
 <approved hash="18,29,094fecfad2738329"/>
-<approved hash="18,29,bb6eedb651753cc9"/>
 <approved hash="18,29,32885000fcd7bac3"/>
+<approved hash="18,29,bb6eedb651753cc9"/>
 <approved hash="18,29,9866e6f7e8d34042"/>
 <approved hash="18,29,515df944e1609f79"/>
-<approved hash="18,29,174eecfcd0747128"/>
 <approved hash="18,29,7e4ad3d8fcbe143a"/>
-<approved hash="18,29,1f15c4acdc6fe8cb"/>
+<approved hash="18,29,174eecfcd0747128"/>
 <approved hash="18,29,e6b2dd0bd5911dbd"/>
+<approved hash="18,29,1f15c4acdc6fe8cb"/>
 <approved hash="18,29,0f661efb40c0a35e"/>
 <approved hash="18,29,b045505018680a7e"/>
-<approved hash="18,29,7647ecdb4315b06f"/>
 <approved hash="18,29,bf4d43a1fcbd753f"/>
+<approved hash="18,29,7647ecdb4315b06f"/>
 <approved hash="18,29,1d2a9ecaeaf61f80"/>
 <approved hash="18,29,1f948754e5166908"/>
 <approved hash="18,29,8f12e6b462777ecb"/>
@@ -3243,17 +3246,16 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <approved hash="18,29,c93d513c1f188919"/>
 <approved hash="18,29,f584a95e43374f09"/>
 <approved hash="18,29,3ca84122c37f8c59"/>
-<approved hash="18,29,fd6508fba0df6b41"/>
 <approved hash="18,29,7845b0530e77f861"/>
+<approved hash="18,29,fd6508fba0df6b41"/>
 <approved hash="18,29,3846f4dac117826e"/>
 <approved hash="18,29,8d4cc1a0e4bc3b3d"/>
-<approved hash="18,29,df9305a07245da0d"/>
 <approved hash="18,29,8f24dccb88f70b8f"/>
 <approved hash="18,29,0b95e55aa719fb09"/>
-<approved hash="18,29,02ad4105f59fb9a2"/>
 <approved hash="18,29,bb1be4b340700cc5"/>
-<approved hash="18,29,b13d493c09143f16"/>
+<approved hash="18,29,02ad4105f59fb9a2"/>
 <approved hash="18,29,3fee0ed758fca7c6"/>
+<approved hash="18,29,b13d493c09143f16"/>
 <approved hash="18,29,4eab4321e37c7a5a"/>
 <approved hash="18,29,0387895d41343d0a"/>
 <approved hash="18,29,b044f852f8768e61"/>
@@ -3264,46 +3266,44 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <approved hash="18,29,7b92e35245114909"/>
 <approved hash="18,29,8b1502b2c2713ecb"/>
 <approved hash="18,29,30acc30b139189a3"/>
-<approved hash="18,29,713db13f3b1b0919"/>
 <approved hash="18,29,09ed3cd7a0f367c9"/>
-<approved hash="18,29,f8aaad20e37e085b"/>
+<approved hash="18,29,713db13f3b1b0919"/>
 <approved hash="18,29,7186895caf358b08"/>
-<approved hash="18,29,d045b0528a769860"/>
+<approved hash="18,29,f8aaad20e37e085b"/>
 <approved hash="18,29,9d648cfba0dec340"/>
+<approved hash="18,29,d045b0528a769860"/>
 <approved hash="18,29,e94b5da7c4bb9f3d"/>
 <approved hash="18,29,9c41d4dd5d17e669"/>
-<approved hash="18,29,b7a230f4a045524e"/>
-<approved hash="18,29,af79c6e345b40b5d"/>
-<approved hash="18,29,432b38b59089b780"/>
 <approved hash="18,29,b7ebfd5543163777"/>
+<approved hash="18,29,432b38b59089b780"/>
 <approved hash="18,29,9eace50a9d9015a3"/>
 <approved hash="18,29,17148cb2e47190ca"/>
 <approved hash="18,29,513cf13ef11ae319"/>
 <approved hash="18,29,e3ecf6d6e0f347c8"/>
-<approved hash="18,29,7eaad321837f1a5b"/>
 <approved hash="18,29,6387e95cd1350d09"/>
+<approved hash="18,29,7eaad321837f1a5b"/>
 <approved hash="18,29,d045505c10788261"/>
 <approved hash="18,29,876a16fb40dfc34e"/>
 <approved hash="18,29,8e48d4d45319206f"/>
 <approved hash="18,29,2f4253aec4bd8d33"/>
-<approved hash="18,29,1715feb0d273fecb"/>
 <approved hash="18,29,f0aed30bef9115a1"/>
-<approved hash="18,29,256218fb40dcab42"/>
+<approved hash="18,29,1715feb0d273fecb"/>
 <approved hash="18,29,b84550541e742062"/>
+<approved hash="18,29,256218fb40dcab42"/>
 <approved hash="18,29,bd4d51a1ecbd7b3b"/>
 <approved hash="18,29,7847fcdb5111b26f"/>
-<approved hash="18,29,42ae5108ed9189a1"/>
 <approved hash="18,29,8b16fcb050734ccb"/>
-<approved hash="18,29,7045a85300770e61"/>
+<approved hash="18,29,42ae5108ed9189a1"/>
 <approved hash="18,29,0b6506fbb8df6341"/>
+<approved hash="18,29,7045a85300770e61"/>
 <approved hash="18,29,8f4cd3a0ecbc353d"/>
 <approved hash="18,29,3646fcdad317806e"/>
 <approved hash="18,29,bb17e2b352703ec9"/>
 <approved hash="18,29,30ad5309f393b9a2"/>
 <approved hash="18,29,9564e4fae0df4340"/>
 <approved hash="18,29,5044f052e2769061"/>
-<approved hash="18,29,1447ecdae5177e6f"/>
 <approved hash="18,29,714ce5a1fcbd173d"/>
+<approved hash="18,29,1447ecdae5177e6f"/>
 <approved hash="18,29,06ad5d0df597bda2"/>
 <approved hash="18,29,bf13e4b35c7008cd"/>
 <approved hash="18,29,5046f050f8748a61"/>
@@ -3314,18 +3314,18 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <approved hash="18,29,30a2c30b17918dad"/>
 <approved hash="18,29,9d6a88fbc0d0cb4e"/>
 <approved hash="18,29,d845d05c8e78986e"/>
-<approved hash="18,29,ed4f21a3c4bf9b3f"/>
 <approved hash="18,29,9845d4d92115e26d"/>
+<approved hash="18,29,ed4f21a3c4bf9b3f"/>
 <approved hash="18,29,1b1284b4e0706ccc"/>
 <approved hash="18,29,62aae10c959619a2"/>
 <approved hash="18,29,8b641efb48dfc340"/>
 <approved hash="18,29,d045585218768e61"/>
-<approved hash="18,29,8e46d4da4317306f"/>
 <approved hash="18,29,3f4c43a0c4bd8d3d"/>
+<approved hash="18,29,8e46d4da4317306f"/>
 <approved hash="18,29,f0aca30bf39109a3"/>
 <approved hash="18,29,0b15e2b2a271fecb"/>
-<approved hash="18,29,3d640cfb40dea340"/>
 <approved hash="18,29,b04550520a763860"/>
+<approved hash="18,29,3d640cfb40dea340"/>
 <approved hash="18,29,7c47f4db5d16466f"/>
 <approved hash="18,29,494d5da1e4bd7f3c"/>
 <approved hash="18,29,c33e87785b391f7f"/>
@@ -3334,14 +3334,14 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <approved hash="18,29,08f4816043d7bd60"/>
 <approved hash="18,29,50d1b0330a1718f5"/>
 <approved hash="18,29,1ff90d6ba14f41dd"/>
-<approved hash="18,29,1e60d606defbe4be"/>
 <approved hash="18,29,ea90de4ec7181e95"/>
+<approved hash="18,29,1e60d606defbe4be"/>
 <approved hash="18,29,1c7f67221f4d9640"/>
 <approved hash="18,29,94f40f6165d61363"/>
-<approved hash="18,29,05fe976cc14f41dd"/>
 <approved hash="18,29,50d6d034901702f5"/>
-<approved hash="18,29,0c6fd60ed0f3a2b1"/>
+<approved hash="18,29,05fe976cc14f41dd"/>
 <approved hash="18,29,ac98d041c7170c9d"/>
+<approved hash="18,29,0c6fd60ed0f3a2b1"/>
 <approved hash="4,1,377c04433b71384e"/>
 <approved hash="4,1,bd2178b41e46abd3"/>
 <approved hash="4,1,2eab5dae729cf199"/>
