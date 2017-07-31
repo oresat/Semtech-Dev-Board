@@ -1256,26 +1256,6 @@ molded</description>
 <text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.3" y1="-1" x2="0.3" y2="1" layer="35"/>
 </package>
-<package name="L3225P">
-<description>&lt;b&gt;INDUCTOR&lt;/b&gt;&lt;p&gt;
-precision wire wound</description>
-<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="-1.676" y1="0.845" x2="1.676" y2="0.845" width="0.1524" layer="51"/>
-<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-1.676" y1="0.838" x2="-1.676" y2="-0.838" width="0.1524" layer="51"/>
-<wire x1="-1.168" y1="0.838" x2="-1.168" y2="-0.838" width="0.1524" layer="51"/>
-<wire x1="1.168" y1="0.838" x2="1.168" y2="-0.838" width="0.1524" layer="51"/>
-<wire x1="1.676" y1="0.838" x2="1.676" y2="-0.838" width="0.1524" layer="51"/>
-<wire x1="1.676" y1="-0.845" x2="-1.676" y2="-0.845" width="0.1524" layer="51"/>
-<circle x="0" y="0" radius="0.7117" width="0.1524" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.8" dy="2" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.8" dy="2" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-</package>
 </packages>
 </library>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -3273,11 +3253,11 @@ These rules will work for both Sunstone Circuits and OSH Park. They have Sunston
 <attribute name="NAME" x="31.681" y="43.479" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="30.395" y="42.525" size="1.27" layer="27"/>
 </element>
-<element name="L5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3225P" value="33nH" x="44.6" y="48.4" smashed="yes" rot="R180">
+<element name="L5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3225M" value="33nH" x="44.6" y="48.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="40.981" y="47.105" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="46.505" y="51.575" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="L4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3225P" value="10nH" x="28" y="44.7" smashed="yes" rot="R90">
+<element name="L4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="L3225M" value="10nH" x="28" y="44.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.595" y="42.395" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="31.175" y="42.795" size="1.27" layer="27" rot="R90"/>
 </element>
