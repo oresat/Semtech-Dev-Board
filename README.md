@@ -6,6 +6,10 @@ OreSat is designed around a 70 cm (436 MHz) radio system for what other cubesats
 
 Since the specs on the Semtech radio ICs are good, we could "upgrade" a generation by going to a separate IC, and we're interesting in using a STM32 for our system controller, we decided on using the SX1236. Of *course* no one makes an evaluation board for this IC. Sigh.
 
+## Firmware
+
+The current firmware to test this board is located in the [devsat repo under app_semtech](https://github.com/oresat/devsat/tree/master/firmware/chib_stf4x/src/app_semtech).
+
 ## Requirements
 
 - Must be a barebones, "development" or "evaluation" board for the SX1236.
