@@ -7,10 +7,11 @@ The following tests should be performed to verify the functionality of the devel
 ### General tests to get started
 
 * Power up, and no smoke emitted
-  * Make power (5 VDC through USB, or JP1) and SPI connections. Also a connection to DIO2 is needed for data.
+  * Place 2W terminators on SMA connectors CF2, 3, and 4. Place a *rubber duck* antenna on connector CF1.
+  * Make power connection (5 VDC through USB, or JP1) and SPI connections. Also a connection to DIO2 is needed for data.
   * Connect jumper for PA Bias. Only connect the LF side for now, JP3 1-2.
-  * Apply power and verify LED indicates power is on. **No smoke is emitted!**
-  * Measure current consumption of the board in in this idle state and recorded as a baseline value.
+  * Apply power and verify LED indicates power is on. **Verify no smoke is emitted!**
+  * Measure current consumption of the board in this idle state and record it [where?] as a baseline value.
 
 * CPU communication to the SX1236 using SPI
   * Ability to read a register and confirm data is valid.
@@ -30,7 +31,7 @@ The SX1236 has two digital (IQ) transceivers available:
 
 ### Setup for transmitter tests
 
-Let's go right to where we plan to use this thing (i.e. communications in the 435 to 438 MHz Amateur Space band.)
+Let's go right to where we plan to use this thing (i.e. communications in the 435 to 438 MHz Amateur Space Band.)
 
 Using the LF transceiver, and knowing our crystal oscillator (FXOSC) is 32 MHz;
 
