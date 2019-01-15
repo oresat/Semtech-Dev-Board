@@ -1,5 +1,11 @@
 # Development board for the Semtech SX1236
 
+## UPDATE: THIS PROJECT HAS BEEN DEPRECATED (RETIRED)
+
+Because of the difficulty of getting the SX1236 to reliably work, we moved on to the On Semi AX5043. This project is now retired and won't be worked on any more.
+
+-----
+
 ## Overview
 
 OreSat is designed around a 70 cm (436 MHz) radio system for what other cubesats call their Command and Data Handling (C&DH) system. We started with the NXP Kw0x series chips but found that chip, and it's interface to its embedded Semtech SX1232 (?) radio IC, too painful to continue. 
